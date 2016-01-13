@@ -1,98 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Scott Gillatt Resume</title>
-  <style>
-  .adecco{
-    border: 2px solid red;
-    background-color: black;
-    color: #fff;
-  }
-  .me{
-      background-color: whitesmoke;
-  }
-  .me h3{
-	color: red;
-  }
-  .education{
-	background-color: #CC0033;
-	color: #fff;
-  }
-  #profile-picture{
-	width: 150px;
-	height: 150px;
-	border-radius: 75px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .name{
-	color: blue;
-	text-align: center;
-    display: block;
-    margin: 0 auto;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-  }
-  #duties{
-	text-decoration: none;
-  }
-.centerfold{
-    width: 150px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.topname{
-    background-color: black;
-}
-  </style>
+    <meta charset="UTF-8">
+    <title>Scott Gillatt Resume</title>
+    <link rel="stylesheet" href="">
+    <style>
+        html , body{height: 100%;}
+        *{
+            box-sizing: border-box;
+        }
+        .sidebar{
+            float: left;
+            background-color: black;
+            color: white;
+            text-align: center;
+            width: 33%;
+            margin-right: 1em;
+            position: relative;
+            height: 100%;
+        }
+        h1.sidebar{
+            color: red;
+            text-align: left;
+            font-size: 2em;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+        p.sidebar{
+            text-align: left;
+            width: auto;
+        }
+        .profilepicture{
+            width: 150px;
+            height: 150px;
+            border-radius: 75px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .aboutme{
+            background-color: white;
+            color: red;
+        }
+        h1.aboutme{
+            font-size: 3em;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+        h4.aboutme{
+            font-size: 1.5em;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+        .skills{
+            background-color: black;
+            color: red;
+            float: left;
+            height: 100%;            
+        }
+        h1.skills{
+            font-size: 3em;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+        p.skills{
+            color:white;
+        }
+        .body{
+            float: right;
+            width: calc(67% - 1em);
+            position: relative;
+            height: 100%;
+            background: blue;
+        }
+    </style>
 </head>
 
-
 <body>
+    <!--Profile info start-->
+    <section id="profile">
+    <div class="sidebar">
+        <img src="http://www.insidermonkey.com/blog/wp-content/uploads/2013/08/Bill-Gates-peeking-through-window.jpg" alt="profile picture" class="profilepicture">
+        
+        <div class="aboutme">
+            <h1 class="aboutme">Scott Gillatt</h1>
+            <h4 class="aboutme">Software Engineer</h4>
+            <p>(208)899-7582  scottgillatt@gmail.com</p>
+        </div>
+        
+        <h1 class="sidebar">About Me</h1>
+        <p class="sidebar">Seeking to become full time Software Engineer.  Enjoy thinking of ways to code something and learning how things work underneath the hood.</p>
+        
+        <div class="skills">
+            <h1 class="skills">Skills</h1><br>
+            <p class="skills">HTML/CSS, JavaScript, Excellent Troubleshooting</p>
+        </div>
+    </div>
+    </section>
     
-<section id = "about">
-<div class="me">
-    <div class="topname">
-  <div class="centerfold">
-  <img src = "C:\Users\Scottie\Pictures\Saved Pictures\profile picture.JPG" alt="Scott's Profile Picture" id="profile-picture">
-  </div>
-  <a href="https://github.com/Scott-Gillatt" target="_blank">GitHub</a>
-    <h1 class="name">Scott Gillatt</h1>
-    </div>    
-	  <h3>About Me</h3>
-    <p>I am someone who has a desire to keep learning and growing.  A person who knows how to ask questions, work     as a team, meet deadlines, and understand their job.</p>
-</div>
-</section>
-
-<section id = "work-history">
-<div class="adecco">
-	<h1>Work Histroy</h1>
-      <h3>Adecco Technical and Engineering</h3>
-        <p>Test Technician 3 <br> February 2011 - April 2014 | February 2015 - present</p>
-			<h3>Duties</h3>
-	  <ul>
-	    <li>Extensive functionality testing, loading firmware onto multi-function / single-function devices and testing HP partner printing software</li>
-	    <li>Implemented troubleshooting skills to characterize defects</li>
-	    <li>Experience using Quality Center and ALM to submit write-ups of defects and execute manual tests</li>
-	    <li>Used VMware to install servers and clients for various solutions called for in test requests, including Server 2003,2008, and 2012 with clients being on Windows xp,7,8, and 10</li>
-	  </ul>
+    <!-- Workhistory -->
+    <section id="workhistory">
+        <div class="body">
+            <p>text</p>
+            text
+        </div> 
+    </section>
     
- </div>
- <div class="intimetech">
-     
- </div>
-</section>
+    <!-- Education -->
+    <section id="educaiton">
+        <div>
+            
+        </div>
+    </section>
+</body>
 
-<section id = "education">
-<div class="education">
-      <h1>Education</h1>
-      <p>2006-2010</p>
-	  <h3>Boise State University</h3>
-  <p>Associate fo Applied Science; Computer Network technology<br>Bachelor of Applied Science; General Studies<br></p>
-  
-  <h1>Certifications</h1>
-	<p>A+ and Network+ certification</p>
- </div>
-</section>
-
-  </body>
 </html>
