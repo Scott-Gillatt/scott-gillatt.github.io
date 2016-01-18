@@ -1,89 +1,105 @@
-.sidebar {
-          float: left;
-          background-color: black;
-          color: white;
-          text-align: center;
-          width: 33%;
-          margin-right: 1em;
-          position: relative;
-          
-        }
-        
-        h1.sidebar {
-          color: red;
-          text-align: left;
-          font-size: 2em;
-          margin-bottom: 5px;
-          margin-top: 5px;
-        }
-        
-        p.sidebar{
-          text-align: left;
-          width: auto;
-        }
-        
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+         position: relative;
+         min-height: 1px;
+         padding-right: 0px; 
+         padding-left: 0px; 
+        }   
         .profilepicture {
-          width: 150px;
-          height: 150px;
-          border-radius: 75px;
-          margin-left: auto;
-          margin-right: auto;
+          height: 200px;
+          width: 200px;
         }
         
-        .aboutme {
-          background-color: white;
-          color: red;
+        .container{
+            width:  100%
         }
-        
-        .aboutme h1 {
-          font-size: 3em;
-          margin-bottom: 5px;
-          margin-top: 5px;
+        .sidebar{
+            background-color: #2C2A2C;
+            color: #c7c7c7;
+            text-align: center;
+            padding: 20px;
         }
-        
-        .aboutme h4 {
-          font-size: 1.5em;
-          margin-bottom: 5px;
-          margin-top: 5px;
+        .contact-container{
+            text-align: left;
+            padding: 30px;
         }
-        
-        .skills {
-          background-color: black;
-          color: red;
-          float: left;
-          height: 100%;
+        .contact{
+            padding-top: 5px;
+            padding-bottom: 5px;
         }
-        
-        .skills h1 {
-          margin-bottom: 1px;
-          margin-top: 1px;
-          text-align: left;
+        .contact-title{
+            letter-spacing: 2px;
+            padding-top: 10px;
+            padding-bottom: 10px;
         }
-        
-        .skills p {
-          margin-top: 1px;
-          color: white;
-          text-align: left;
+        a, a:hover{
+            color: #CC0000;
         }
-        
-        .body {
-          float: right;
-          width: calc(67% - 1em);
-          height: 100%;
+        .red{
+            color: #CC0000;
         }
-        
-        .body h1 {
-          background-color: black;
-          color: red;
-          margin-top: 0px;
-          padding-left: 1.5%;
+        .progress-bar{
+            background-color: #CC0000;
         }
-        
-        .body h3 {
-          color: red;
+        .progress{
+            border: 1px solid #CC0000;
+            height: 8px;
         }
-        
-        .body span {
-          padding-left: 1.5%;
-          color: darkgray;
+        .skillset{
+            padding-top: 5px;
+            padding-bottom: 30px;
+            text-align: left;
+        }
+        .skillset h1{
+            color: #CC0000;
+            text-align: left;
+        }
+        .aboutme h1{
+            color: #CC0000;
+            text-align: left;
+        }
+        .aboutme{
+            text-align: left;
+            padding-bottom: 30px;
+            padding-top: 30px;
+        }
+        #aboutmeicon{
+            font-size: 30px;
+        }
+        .container-title{
+            margin: 20px 0;
+            font-weight: 600px;
+            background-color: #CC0000;
+            color: white;
+            padding-left: 15px;
+            max-width: 175px;
+            font-size: 20px;
+            font-variant: small-caps;
+        }
+        .work-experience{
+            padding-left: 20px;
+        }
+        .work-experience h3{
+            font-variant: small-caps;
+        }
+        .work-experience span{
+            color: #8E8686;
+        }
+        .education{
+            padding-left: 20px;
+        }
+        .education h3{
+            font-variant: small-caps;
+        }
+        .education span{
+            color: #8E8686;
+        }
+        .education h5{
+            padding-left: 15px;
+        }
+        #worktitle{
+            color: red;
+            font-size: 16px;
+        }
+        .maxheight{
+            height: 200px;
         }
