@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <title>Scott Gillatt Resume</title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
@@ -17,7 +16,7 @@
         <header class="row">
             <div class="sidebar col-md-4 col-sm-12 col-xs-12">
                 <img src="https://cloud.githubusercontent.com/assets/16550268/12312859/2e2586fa-ba20-11e5-9a37-8e5960392553.JPG" class="profilepicture img-circle center-block"
-                alt="Profile Picture">
+                    alt="Profile Picture">
                 <p><i class="fa fa-github"></i> GitHub Profile:
                     <a href="https://github.com/scott-gillatt" target="_blank">/scott-gillatt</a>
                 </p>
@@ -26,7 +25,7 @@
                 <div class="contact">
                     <h1 class="contact red">Scott Gillatt</h1>
                     <h4 class="contact-title red">Software Engineer</h4>
-                    <span><i class="fa fa-mobile"></i>(208)899-7582</span> <span><i class="fa fa-envelope"></i>scottgillatt@gmail.com</span>
+                    <span><i class="fa fa-mobile"></i> (208)899-7582</span> <span><i class="fa fa-envelope"></i> scottgillatt@gmail.com</span>
                 </div>
             </div>
         </header>
@@ -46,21 +45,26 @@
                 </div>
                 <div class="skillset">
                     <h1>Skills</h1>
-                    <p>HTML</p>
+                    <p>HTML\CSS</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                        </div>
+                    </div>
+                    <p>Bootstrap</p>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
                         </div>
                     </div>
-                    <p>CSS</p>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
-                        </div>
-                    </div>
                     <p>JavaScript</p>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
                         </div>
                     </div>
+                    <p>AngularJS</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                        </div>
+                    </div>              
                     <p>TroubleShooting</p>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
@@ -68,7 +72,7 @@
                     </div>
                     <p>Source Control: Git, Github</p>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" style="width: 35%;">
                         </div>
                     </div>
                     <div class="hidden-sm hidden-xs maxheight">
@@ -78,12 +82,19 @@
             <main class="col-md-8 col-sm-12 col-xs-12">
 
 
-                <div class="container-title">Work Experience</div>
+                <div class="container-title">Experience</div>
                 <div class="work-experience">
+                    <h3>BoiseCodeWorks</h3>
+                    <span class="worktitle">Student Developer</span> <span>| January 2016 - Present</span>
+                    <ul>
+                        <li>Created Applications using HTML\CSS, Bootstrap, JavaScript, AngularJS, and using source control with GIT</li>
+                        <li>Lead developer on final group project of 3 developers controlling what needed to be done and setting priorities of each idea</li>
+                        <li>Tied our front end to our backend database provider Firebase and AngularFire</li>
+                    </ul>
                     <h3>Adecco Technical and Engineering</h3>
-                    <span id="worktitle">Test Technician 3</span> <span>| February 2011 - Appril 2014</span>
+                    <span class="worktitle">Test Technician 3</span> <span>| February 2011 - Appril 2014</span>
                     <br>
-                    <span id="worktitle">Test Technician 3</span><span> | February 2015 - Present</span>
+                    <span class="worktitle">Test Technician 3</span><span> | February 2015 - Present</span>
                     <ul>
                         <li>Extensive functionality testing, loading firmware onto multi-function / single-function devices and
                             testing HP partner printing-software.</li>
@@ -93,7 +104,7 @@
                             Server 2012, Server 2008, Server 2003, Windows 8, Windows 7 and XP</li>
                     </ul>
                     <h3>InTimeTec partnered with Jetmobile</h3>
-                    <span id="worktitle">Sales Support Technican</span><span> | May 2014 - January 2015</span>
+                    <span class="worktitle">Sales Support Technican</span><span> | May 2014 - January 2015</span>
                     <ul>
                         <li>Researched and implemented backup solution for PC and MAC users to a NAS</li>
                         <li>Provided support to MicrDIMM and BarDIMM printing to customers</li>
@@ -107,9 +118,6 @@
                 <div class="container-title">Education</div>
                 <div class="education">
 
-                    <h3>BoiseCodeWorks</h3>
-                    <span>2016</span>
-                    <h5>Front End Devloper</h5>
                     <h3>Boise State University</h3>
                     <span>2008-2010</span>
                     <h5>Bachelor of Applied Science; General Study</h5>
@@ -129,8 +137,7 @@
 
 
         <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
-        crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 
 </html>
